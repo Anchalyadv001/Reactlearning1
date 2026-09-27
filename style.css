@@ -1,0 +1,108 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e8f0ff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header{
+    background-color: #005f73;
+    color: white;
+    padding:5px ;
+    line-height: 4px;
+
+}
+
+.login-box{
+    background-color: white;
+    width:330px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    
+}
+
+
+form{
+    display: flex;
+    flex-direction:column;
+    margin: 10px;
+    
+}
+
+button{
+   background-color: #005f73; 
+   height: 40px;
+   border-radius: 10px;
+   color: white;
+   margin: 10px;
+   font-size: 15px;
+   border-style: hidden;
+}
+
+input{
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px;
+    border-style:groove ;
+    border-color: rgba(128, 128, 128, 0.438);
+}
+
+#yadav{
+    font-size: 24px;
+}
+
+label{
+    text-align: left;
+    color: darkgrey;
+}
+.forget{
+    text-align: right;
+
+}
+
+h2{
+  font-size: 20px;  
+  margin-bottom:25px ;
+}
+
+h3{
+    margin-bottom: 5p;
+}
+
+#ratan{
+
+    background-color: white;
+    padding: 5px;
+    line-height: 4px;
+    font-weight: bold;
+    color: red;
+    white-space:nowrap ;
+    /* white-space: nowrap;
+
+    animation: scroll-left 10s linear infinite;
+    font-weight:bold;
+    color: rgba(255, 0, 0, 0.793);
+    background-color: white;
+    padding: 5px;
+    line-height: 5px;
+    width:100%; */
+}
+
+p{
+   animation:scroll-left 14s linear infinite; 
+}
+
+
+
+@keyframes scroll-left{
+  0% {
+    transform: translateX(100%);
+}
+
+100%{
+    transform: translateX(-100%);
+}
+
+}
